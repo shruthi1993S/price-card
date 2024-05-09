@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+  }
+
+  .row {
+    height: 100%;
+    align-items: center;
+  
+  }
+  
+  #pricing {
+    height: 100%;
+    padding: 100px;
+    text-align: center;
+    background-color:rgb(41, 108, 233);
+   
+  }
+  
+  .card {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    
+  }
+  
+  .card-header {
+    color: white;
+    background-color: black;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+ 
+  button{
+    border-radius: 10px;
+  }
+  p{
+    text-align:left;
+    padding: 10px;
+  }
+
+
+  .tickmark::before{
+    content:"\2713";
+    display: inline-block;
+    margin-right: 5px;
+  }
+ 
+
+
+  
